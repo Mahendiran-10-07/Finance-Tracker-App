@@ -2,11 +2,11 @@
 
 A secure, personal, and powerful offline-first finance manager built with React Native + Expo.
 
-This app was originally created to solve a real-life need — tracking money received from a family member working abroad and monitoring how that money is spent over time.
+This app was created to solve a real-life need — tracking money received from a family member working and monitoring how that money is spent over time.
 
 📸 Screenshots
 
-📝 Tip: Drag & drop your screenshots (.jpg / .png) directly into this README on GitHub.
+
 
 <p><img src="./screen1.jpeg" alt="App Screenshot 1" width="180" />
 <img src="./screen2.jpeg" alt="App Screenshot 2" width="180" />
@@ -31,13 +31,13 @@ Automatically calculates the remaining balance for every income source.
 
 📝 Full CRUD
 
-Add
+->Add
 
-Edit
+->Edit
 
-Delete
+->Delete
 
-View
+->View
 
 Plus custom notes for each transaction.
 
@@ -46,25 +46,25 @@ Plus custom notes for each transaction.
 
 Uses your device's:
 
-Face ID
+->Face ID
 
-Fingerprint
+->Fingerprint
 
-PIN
+->PIN
 
 to protect your financial data.
 
 📤 Custom CSV Export
 
-Export filtered transaction data:
+->Export filtered transaction data:
 
-Received by date
+->Received by date
 
-Spent by category
+->Spent by category
 
-Linked transactions
+->Linked transactions
 
-Custom ranges
+->Custom ranges
 
 Useful for long-term audits or sharing reports.
 
@@ -79,90 +79,90 @@ No internet needed.
 
 🎨 Polished UI & UX
 
-Dual-tab navigation (Top + Bottom)
+->Dual-tab navigation (Top + Bottom)
 
-Professional blue, white, red/pink color scheme
+->Professional blue, white, red/pink color scheme
 
-Custom splash screen + app icon
+->Custom splash screen + app icon
 
-Dedicated Help & About page
+->Dedicated Help & About page
 
-Clean interface designed for real-world usability.
+->Clean interface designed for real-world usability.
 
 🛠️ Tech Stack
-Framework
+*Framework
 
-React Native
+->React Native
 
-Expo (Managed Workflow)
+->Expo (Managed Workflow)
 
-Navigation
+->Navigation
 
-React Navigation
+->React Navigation
 (Stack, Bottom Tabs, Material Top Tabs)
 
-Local Storage
+->Local Storage
 
 @react-native-async-storage/async-storage
 
-Authentication / Security
+->Authentication / Security
 
-expo-local-authentication
+->expo-local-authentication
 
-File System & Sharing
+->File System & Sharing
 
-expo-file-system
+->expo-file-system
 
-expo-sharing
+->expo-sharing
 
-UI Components
+->UI Components
 
-react-native-modal-datetime-picker
+->react-native-modal-datetime-picker
 
 @react-native-picker/picker
 
 🚀 How to Run Locally
 
-Clone the repository:
+!!!Clone the repository:
 
 git clone https://github.com/YOUR-USERNAME/FinanceTrackerApp.git
 
 
-Move into the project:
+!!!Move into the project:
 
 cd FinanceTrackerApp
 
 
-Install dependencies:
+!!!Install dependencies:
 
 npm install
 
 
-Start development mode:
+!!!Start development mode:
 
 npx expo start
 
 
-Scan the QR code with Expo Go on your mobile device.
+!!!Scan the QR code with Expo Go on your mobile device.
 
 📱 Build APK (Production)
 
-Install EAS CLI:
+!!!Install EAS CLI:
 
 npm install -g eas-cli
 
 
-Log in to Expo:
+!!!Log in to Expo:
 
 eas login
 
 
-Configure the build:
+!!!Configure the build:
 
 eas build:configure
 
 
-Create a preview APK:
+!!!Create a preview APK:
 
 eas build --profile preview -p android --clear-cache
 
