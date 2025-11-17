@@ -8,9 +8,9 @@ This app was originally created to solve a real-life need — tracking money rec
 
 📝 Tip: Drag & drop your screenshots (.jpg / .png) directly into this README on GitHub.
 
-![App Screenshot 1](.screen1.png)
-![App Screenshot 2](.screen2.png)
-![App Screenshot 3](.screen3.png)
+<p><img src="./screen1.jpeg" alt="App Screenshot 1" width="180" />
+<img src="./screen2.jpeg" alt="App Screenshot 2" width="180" />
+<img src="./screen3.jpeg" alt="App Screenshot 3" width="180" /></p>
 
 ✨ Core Features
 
