@@ -123,46 +123,46 @@ No internet needed.
 
 🚀 How to Run Locally
 
-!!!Clone the repository:
+!!!  Clone the repository:
 
 git clone https://github.com/YOUR-USERNAME/FinanceTrackerApp.git
 
 
-!!!Move into the project:
+!!!  Move into the project:
 
 cd FinanceTrackerApp
 
 
-!!!Install dependencies:
+!!!  Install dependencies:
 
 npm install
 
 
-!!!Start development mode:
+!!!  Start development mode:
 
 npx expo start
 
 
-!!!Scan the QR code with Expo Go on your mobile device.
+!!!  Scan the QR code with Expo Go on your mobile device.
 
 📱 Build APK (Production)
 
-!!!Install EAS CLI:
+!!!  Install EAS CLI:
 
 npm install -g eas-cli
 
 
-!!!Log in to Expo:
+!!!  Log in to Expo:
 
 eas login
 
 
-!!!Configure the build:
+!!!  Configure the build:
 
 eas build:configure
 
 
-!!!Create a preview APK:
+!!!  Create a preview APK:
 
 eas build --profile preview -p android --clear-cache
 
