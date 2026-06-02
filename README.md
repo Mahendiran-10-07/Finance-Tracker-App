@@ -125,7 +125,7 @@ No internet needed.
 
 !!!  Clone the repository:
 
-git clone https://github.com/YOUR-USERNAME/FinanceTrackerApp.git
+git clone https://github.com/Mahendiran-10-07/FinanceTrackerApp.git
 
 
 !!!  Move into the project:
